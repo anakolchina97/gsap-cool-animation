@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Front-end by sborkaproject.com -->
 		<meta charset="utf-8" />
-		<title>{% block title %}Project{% endblock %}</title>
+		<title>{% block title %}Creative Scroll{% endblock %}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="icon" type="image/png" href="assets/images/favicon.png">
 
 		{{ headScripts() }}
 
