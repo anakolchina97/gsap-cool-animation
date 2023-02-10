@@ -1,7 +1,6 @@
 {% extends "../templates/base.nunj" %}
 
 {% block content %}
-	<div class="content-preloader"></div>
 	<div class="content-mobile">
 		<div class="content-mobile__emoji">😱</div>
 		<p class="content-mobile__text">ваш экран <span data-user-screen></span>, а надо >= 768<p>

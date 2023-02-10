@@ -7,19 +7,7 @@ class Animation {
 	constructor() {
 		this.init();
 		this.getUserScreen();
-		this.preloader();
 		window.addEventListener('resize', () => this.getUserScreen());
-		window.addEventListener('resize', () => this.preloader());
-	}
-	preloader() {
-		if (window.innerWidth >= 768 && !localStorage.getItem('preloader')) {
-			setTimeout(() => {
-				localStorage.setItem('preloader', true);
-				document.querySelector('.content-preloader').style.display = 'none';
-			}, 500);
-		} else {
-			document.querySelector('.content-preloader').style.display = 'none';
-		}
 	}
 	getUserScreen() {
 		const userScreen = window.innerWidth;
