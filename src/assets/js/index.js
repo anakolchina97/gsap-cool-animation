@@ -22,6 +22,7 @@ class ProjectApp {
 		this.helpers = {};
 		this.modules = {
 			Animation: require('./modules/Animation').default,
+			Preload: require('./modules/Preload').default,
 		};
 		document.addEventListener('DOMContentLoaded', () => {
 			document.documentElement.classList.remove('_loading');
