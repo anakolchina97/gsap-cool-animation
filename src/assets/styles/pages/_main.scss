@@ -39,7 +39,6 @@
 		border-radius: 8px;
 	}
 	&__left {
-		margin-top: calc(var(--gallery-gap) * 1.75);
 	}
 	&__right {
 		#{$this}__item {
