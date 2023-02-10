@@ -23,7 +23,7 @@ body {
 	background-image: url('../images/bg.jpg');
 	background-size: 50px;
 	color: #fafafa;
-	font-family: raleway-c;
+	font-family: 'Outfit', sans-serif;
 	overflow-x: hidden;
 	@include mobile {
 		-webkit-text-size-adjust: 100%;
@@ -70,15 +70,6 @@ input,
 select,
 textarea {
 	@include box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: outfit-c;
 }
 
 input[type='number']::-webkit-inner-spin-button {
