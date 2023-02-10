@@ -3,9 +3,9 @@
 {% block content %}
 	<div class="content">
 		<header class="hero-section">
-			<img data-speed=".6" class="hero" src="./assets/images/hero.png" alt="Alt" >
+			<img data-scroll data-scroll-speed=".6" class="hero" src="./assets/images/hero.png" alt="Alt" >
 			<div class="container">
-				<div data-speed=".75" class="main-header">
+				<div data-scroll data-scroll-speed=".75" class="main-header">
 					<h1 class="main-title">creative scroll</h1>
 				</div>
 			</div>
@@ -13,7 +13,7 @@
 		<div class="portfolio">
 			<div class="container">
 				<main class="gallery">
-					<div data-speed=".9" class="gallery__left">
+					<div data-scroll data-scroll-speed=".9" class="gallery__left">
 						<img class="gallery__item" src="./assets/images/work/1.jpg" alt="Alt">
 						<img class="gallery__item" src="./assets/images/work/2.jpg" alt="Alt">
 						<div class="text-block gallery__item">
@@ -22,7 +22,7 @@
 						</div>
 						<img class="gallery__item" src="./assets/images/work/6.jpg" alt="Alt">
 					</div>
-					<div data-speed="1.1" class="gallery__right">
+					<div data-scroll data-scroll-speed="1.1" class="gallery__right">
 						<div class="text-block gallery__item">
 							<h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
 							<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
