@@ -1,7 +1,11 @@
 {% extends "../templates/base.nunj" %}
 
 {% block content %}
-	<div class="content">
+	<div class="content-mobile">
+		<div class="content-mobile__emoji">😱</div>
+		<p class="content-mobile__text">ваш экран <span data-user-screen></span>, а надо >= 768<p>
+	</div>
+	<div class="content smooth-scroll" data-scroll-container>
 		<header class="hero-section">
 			<img data-scroll data-scroll-speed="0.6" class="hero" src="./assets/images/hero.png" alt="Alt" >
 			<div class="container">
@@ -13,7 +17,7 @@
 		<div class="portfolio">
 			<div class="container">
 				<main class="gallery">
-					<div data-scroll data-scroll-speed="1.9" class="gallery__left">
+					<div data-scroll data-scroll-speed="0.6" class="gallery__left">
 						<img class="gallery__item" src="./assets/images/work/1.jpg" alt="Alt">
 						<img class="gallery__item" src="./assets/images/work/2.jpg" alt="Alt">
 						<div class="text-block gallery__item">
@@ -22,7 +26,7 @@
 						</div>
 						<img class="gallery__item" src="./assets/images/work/6.jpg" alt="Alt">
 					</div>
-					<div data-scroll data-scroll-speed="0.7" class="gallery__right">
+					<div data-scroll data-scroll-speed="2.1" class="gallery__right">
 						<div class="text-block gallery__item">
 							<h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
 							<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
