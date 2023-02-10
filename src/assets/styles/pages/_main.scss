@@ -4,6 +4,9 @@
 	left: 37vw;
 	top: 22vh;
 	z-index: -1;
+	&-section {
+		position: relative;
+	}
 }
 
 .main {

@@ -13,9 +13,9 @@
 			<link rel="stylesheet" href="assets/css/styles.css?hash" />
 		{% endblock stylesheets %}
 	</head>
-	<body>
+	<body >
 
-		<div class="wrapper">
+		<div class="wrapper" data-scroll-container>
 			{% block content %}
 			{% endblock content %}
 		</div>

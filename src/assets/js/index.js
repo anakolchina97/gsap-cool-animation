@@ -1,13 +1,15 @@
-// import { gsap } from 'gsap';
+import { gsap } from 'gsap';
 
-// import { ScrollToPlugin } from 'gsap/ScrollToPlugin.js';
-// gsap.registerPlugin(ScrollToPlugin);
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-// global.gsap = gsap;
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
-// gsap.defaults({
-// 	overwrite: 'auto',
-// });
+global.gsap = gsap;
+
+gsap.defaults({
+	overwrite: 'auto',
+});
 
 class ProjectApp {
 	constructor() {
@@ -18,7 +20,9 @@ class ProjectApp {
 		};
 		this.components = {};
 		this.helpers = {};
-		this.modules = {};
+		this.modules = {
+			Animation: require('./modules/Animation').default,
+		};
 		document.addEventListener('DOMContentLoaded', () => {
 			document.documentElement.classList.remove('_loading');
 		});
